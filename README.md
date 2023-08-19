@@ -146,72 +146,84 @@
   </script>
 </body>
 </html>
-/* Add your general styling here */
-
-.sticky-nav {
-  position: sticky;
-  top: 0;
-  background-color: #333;
-  z-index: 100;
-}
-
-.sticky-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  padding: 10px 0;
-}
-
-.sticky-nav a {
-  text-decoration: none;
-  color: white;
-}
-
-.sticky-nav a:hover {
-  text-decoration: underline;
-}
-
-/* Style for the Books table */
-.book-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-  border: 1px solid #ccc;
-}
-
-.book-table th, .book-table td {
-  border: 1px solid #ccc;
-  padding: 8px;
-  text-align: center;
-}
-
-.nested-table {
-  border: none;
-  width: auto;
-}
-
-/* Style for the Registration form */
-.registration-form {
-  width: 50%;
-  margin: auto;
-  margin-top: 20px;
-  border: 1px solid #ccc;
-  padding: 20px;
-}
-
-.registration-form label, .registration-form input, .registration-form button {
-  display: block;
-  margin-bottom: 10px;
-}
-
-.registration-form button {
-  background-color: #333;
-  color: white;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-}
-
-.registration-form button:hover {
-  background-color: #555;
-}
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Sticky navigation bar */
+  .sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 100;
+  }
+  
+  .sticky-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  .sticky-nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .sticky-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Table styling */
+  .book-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .book-table th, .book-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Form styling */
+  .registration-form {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  .registration-form label, .registration-form input, .registration-form button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .registration-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .registration-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .registration-form button:hover {
+    background-color: #555;
+  }
+  
